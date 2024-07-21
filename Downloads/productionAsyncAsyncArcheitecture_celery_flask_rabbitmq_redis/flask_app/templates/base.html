@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h3>Testing Demo</h3>
+      <form action = "{{ url_for('prediction.async_uploader') }}" method = "POST" 
+         enctype = "multipart/form-data">
+         item_a: <input type = "text" name = "item_a" /><br/>
+         item_b: <input type="text" name="item_b" /><br/>
+         <input type = "submit"/>
+      </form>   
+   </body>
+</html>
