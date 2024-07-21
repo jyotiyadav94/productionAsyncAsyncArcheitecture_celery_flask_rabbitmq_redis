@@ -1,0 +1,11 @@
+transformers
+torch
+torch-model-archiver
+torchaudio
+torchserve
+torchvision
+celery
+pyyaml
+joblib
+numpy
+pandas
